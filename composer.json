@@ -1,0 +1,18 @@
+{
+    "name": "studycs/qrcode",
+    "description": "php qrcode",
+    "type": "library",
+    "authors": [
+        {
+            "name": "luoxiaokang",
+            "email": "studycs@qq.com"
+        }
+    ],    
+    "require": {
+		"php": ">=7.1.3",
+		"yiisoft/yii2": "~2.0.14"	
+	},
+	"autoload": {
+        "files": [ "src/phpqrcode.php" ]
+    }
+}
